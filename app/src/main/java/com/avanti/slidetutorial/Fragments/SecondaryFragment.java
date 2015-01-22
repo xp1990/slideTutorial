@@ -4,9 +4,11 @@ import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.DragEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.LinearLayout;
 
 import com.avanti.slidetutorial.Adapters.RecyclerAdapter;
@@ -57,6 +59,4 @@ public class SecondaryFragment extends BaseFragment{
 
         return rootView;
     }
-
-
 }
